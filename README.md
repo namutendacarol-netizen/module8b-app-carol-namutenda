@@ -18,8 +18,8 @@ Open http://localhost:8501. If .venv already exists from the Iris app, reuse it 
 ## Reproduce and containerize
 Retrain with `.\.venv\Scripts\python.exe train_model.py`. Run Docker Desktop, stop any local app using port 8501, then execute `docker compose up --build`. Open the same local URL. Stop with `docker compose down`. Docker uses Python 3.12 and the pinned requirements.
 
-## Deploy and submit
-Upload project files to a public GitHub repository. In Streamlit Community Cloud choose that repository, main branch, app.py and Python 3.12, then deploy. Submit the real repository URL, live app URL and `module8b_demo_carol_namutenda.mp4` (60 seconds). START_HERE.md gives the beginner steps. Publication and recording remain to be completed.
+## Project repository
+https://github.com/namutendacarol-netizen/module8b-app-carol-namutenda
 
 ## Limits and source
 Educational only; no clinical thresholds, diagnostic claims or treatment guidance. Small historical dataset; no external or Zambia-specific validation. Raw numeric feature scales follow the source; some serum definitions are uncertain. Scores are not percentages. Source: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes (original study: Efron et al., 2004, Least Angle Regression).
