@@ -13,7 +13,7 @@ py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe -m streamlit run app.py
 ```
-Open http://localhost:8501. If .venv already exists from the Iris app, reuse it and skip its creation. Select an example record, review inputs and click **Predict progression**. The app displays a predicted score and input table. Expand the evaluation section to read test metrics. Example records avoid requiring real patient data.
+Open http://localhost:8501. Select an example record, review inputs and click **Predict progression**. The app displays a predicted score and input table. Expand the evaluation section to read test metrics. Example records avoid requiring real patient data.
 
 ## Reproduce and containerize
 Retrain with `.\.venv\Scripts\python.exe train_model.py`. Run Docker Desktop, stop any local app using port 8501, then execute `docker compose up --build`. Open the same local URL. Stop with `docker compose down`. Docker uses Python 3.12 and the pinned requirements.
