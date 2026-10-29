@@ -1,0 +1,12 @@
+{
+  "dataset": "scikit-learn Diabetes",
+  "samples": 442,
+  "training_samples": 353,
+  "test_samples": 89,
+  "random_state": 42,
+  "MAE": 42.856825247800614,
+  "RMSE": 53.62628756889521,
+  "R2": 0.45721095677808454,
+  "baseline_MAE": 64.00646146990485,
+  "sklearn_version": "1.8.0"
+}
