@@ -20,6 +20,7 @@ Retrain with `.\.venv\Scripts\python.exe train_model.py`. Run Docker Desktop, st
 
 ## Project repository
 https://github.com/namutendacarol-netizen/module8b-app-carol-namutenda
-
+## Live app
+https://namutendacarol-netizen-module8b-app-carol-namutenda-app-pw1j2q.streamlit.app
 ## Limits and source
 Educational only; no clinical thresholds, diagnostic claims or treatment guidance. Small historical dataset; no external or Zambia-specific validation. Raw numeric feature scales follow the source; some serum definitions are uncertain. Scores are not percentages. Source: https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes (original study: Efron et al., 2004, Least Angle Regression).
